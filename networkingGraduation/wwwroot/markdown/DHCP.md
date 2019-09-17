@@ -10,15 +10,26 @@ DHCP kann einem Client noch viele weitere Netzwerkinformationen bereitstellen
 - Broadcast
 - Subnetmask
 
+## Best Practice
+Im Optimalfall gibt es nur einen DHCP-Server. So können Konflikte bei der Adressvergabe vermieden werden.
+
 ## grundlegender Ablauf
 ![A test image](images/dhcp-ablauf.png)
 - ein Client ohne IP-Adresse (welcher noch keinen DHCP-Server kennt) sendet einen Broastcast ins Netzwerk (MAC-Broadcastadresse)
 dieser bleibt im Netzwerk, da ein Router keine Broadcasts weiterleitet
-- wenn ein DHCP Server das Packet erhält sendet er ein sogenanntes DHCP-Offer an den Client
+- wenn ein DHCP Server das Paket erhält sendet er ein sogenanntes DHCP-Offer an den Client
 also ein Angebot dem Client eine gewisse IP-Adresse zur Verfügung zu stellen
 - Wenn ein Client mehrere DHCP-Offers erhält entscheidet er welches er annehmen möchte, er versendet dazu einen DHCP-Request an den Server dessen DHCP-Offer er annehmen möchte.
 - Dadurch dass der Client dies wiederum als Broadcast versendet wissen die anderen DHCP-Server, dass der Client ihr Angebot nicht angenommen hat.
 - Zum Schluss versendet der DHCP-Server noch eine Bestätigung(DHCP-Acknoledge, Unicast) an den Client, dass er das DHCP-Request erhalten hat
+
+## detailliertere Beschreibung der DHCP-Pakete
+### DHCP-Discover
+- wird von Client versandt
+- UDP-Paket
+- Ziel-Adresse 255.255.255.255
+- Quelladresse 0.0.0.0
+- dient als Adressanforderung an alle verfügbaren DHCP-Server
 
 ## Einstellungen am DHCP Server
 ### verpflichtend
@@ -54,3 +65,5 @@ Wenn die Lease Time vollständig abgelaufen ist, darf der Client die IP-Adresse 
 - statisches Protokoll
 - MAC-Adresse wird benötigt um IP-Adresse zu bekommen
 - Administrator muss Liste führen
+
+[Quelle](https://www.elektronik-kompendium.de/sites/net/0812221.htm)
