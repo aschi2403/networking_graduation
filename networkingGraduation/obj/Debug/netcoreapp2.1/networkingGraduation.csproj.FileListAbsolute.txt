@@ -59,3 +59,17 @@ R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\networking
 R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\networkingGraduation.dll
 R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\networkingGraduation.pdb
 R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\networkingGraduation.csproj.CopyComplete
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\DHCP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\R_ARP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\ARP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\TFTP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\DNS.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\Switch.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\Router.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\Zugriffsverfahren.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\PrioredEthernet.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\Koppelglieder.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\TCP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\UDP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\ICMP.g.cshtml.cs
+R:\networking_graduation\networkingGraduation\obj\Debug\netcoreapp2.1\Razor\Pages\Netzwerksicherheit.g.cshtml.cs

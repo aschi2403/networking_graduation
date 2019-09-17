@@ -27,3 +27,4 @@ R:\networking_graduation\networkingGraduation\obj\Release\netcoreapp2.1\networki
 R:\networking_graduation\networkingGraduation\obj\Release\netcoreapp2.1\networkingGraduation.dll
 R:\networking_graduation\networkingGraduation\obj\Release\netcoreapp2.1\networkingGraduation.pdb
 R:\networking_graduation\networkingGraduation\obj\Release\netcoreapp2.1\networkingGraduation.csproj.CopyComplete
+R:\networking_graduation\networkingGraduation\obj\Release\netcoreapp2.1\Razor\Pages\Netzwerkdienste.g.cshtml.cs
