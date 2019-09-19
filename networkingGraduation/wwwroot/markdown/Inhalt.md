@@ -22,3 +22,7 @@
 - [ICMP](/ICMP)
 - [DNS](/DNS)
 - [Netwerksicherheit](/Netzwerksicherheit)
+
+
+# Links
+[class-central.com](https://www.classcentral.com/subject/computer-networking)
