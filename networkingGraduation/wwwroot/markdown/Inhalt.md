@@ -25,4 +25,4 @@
 
 
 # Links
-[class-central.com](https://www.classcentral.com/subject/computer-networking)
+[Networking Youtube Channels](https://blog.feedspot.com/networking_youtube_channels/)
